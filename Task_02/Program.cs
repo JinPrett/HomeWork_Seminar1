@@ -4,11 +4,11 @@ int x = Convert.ToInt32(Console.ReadLine());
 int y = Convert.ToInt32(Console.ReadLine());
 if(x>y)
 {
-    Console.WriteLine("Первое число - большое, второе - меньшее!");
+    Console.Write("Первое число - большое (max = " + x +"), второе - меньшее (min = " + y + ")!");
 }
 else if(x<y)
 {
-    Console.WriteLine("Второе число - большое, первое число - меньшее!");
+    Console.WriteLine("Второе число - большое (max = " + y +"), первое число - меньшее (min = " + x + ")!");
 }
 else if(x==y)
 {
